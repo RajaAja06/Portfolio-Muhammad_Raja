@@ -16,3 +16,6 @@ Catatan:
 - Nomor WhatsApp menggunakan format internasional wa.me (62 tanpa angka 0 di depan).
 - Website memakai Google Fonts saat internet tersedia. Jika offline, otomatis memakai font sistem.
 - Tampilan terinspirasi gaya editorial/experimental #SWAG, bukan salinan 1:1 dari referensi.
+
+Link Secure:
+https://rajaaja06.github.io/Portfolio-Muhammad_Raja/

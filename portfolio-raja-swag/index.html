@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio Muhammad Raja Yusuf Sudibdya — pelajar PPLG dengan minat pada web, UI/UX, data, dan AI." />
+  <title>Raja — Portfolio #SWAG</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-inner">
+      <span class="loader-kicker">RAJA / PORTFOLIO</span>
+      <div class="loader-count" id="loaderCount">00</div>
+      <div class="loader-line"><span></span></div>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand magnetic" href="#top" aria-label="Kembali ke atas">RAJA<span>®</span></a>
+    <nav class="desktop-nav" aria-label="Navigasi utama">
+      <a href="#about">ABOUT</a>
+      <a href="#certificates">CERTS</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn magnetic" id="invertBtn" type="button" aria-label="Balik warna" title="Invert mode">INV</button>
+      <button class="menu-btn magnetic" id="menuBtn" type="button" aria-expanded="false" aria-controls="mobileMenu">MENU</button>
+    </div>
+  </header>
+
+  <aside class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <button class="mobile-close" id="menuClose" type="button">CLOSE ×</button>
+    <nav>
+      <a href="#top">HOME</a>
+      <a href="#about">ABOUT</a>
+      <a href="#certificates">CERTIFICATES</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+    <p>PURWOKERTO / INDONESIA</p>
+  </aside>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-topline reveal">
+        <span>PORTFOLIO / 2026</span>
+        <span>STUDENT · CREATIVE TECH</span>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">HELLO, I'M</p>
+          <h1 class="hero-title reveal">
+            <span>MUHAMMAD</span>
+            <span>RAJA YUSUF</span>
+            <span class="outline">SUDIBDYA.</span>
+          </h1>
+          <p class="hero-intro reveal">Pelajar PPLG yang tertarik pada web development, UI/UX, analisis data, dan eksplorasi AI.</p>
+          <div class="hero-cta reveal">
+            <a href="#certificates" class="pill magnetic">VIEW CERTIFICATES ↘</a>
+            <a href="#about" class="text-link">MORE ABOUT ME ↓</a>
+          </div>
+        </div>
+
+        <figure class="hero-visual reveal" data-tilt>
+          <div class="image-frame">
+            <img src="assets/hero-raja.jpeg" alt="Foto Muhammad Raja Yusuf Sudibdya" />
+          </div>
+          <figcaption>
+            <span>PORTRAIT / 01</span>
+            <span>KEEP LEARNING</span>
+          </figcaption>
+          <span class="sticker sticker-a">#SWAG</span>
+          <span class="sticker sticker-b">RPL / UI</span>
+        </figure>
+      </div>
+
+      <div class="scroll-note reveal">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="marquee" aria-label="Bidang minat">
+      <div class="marquee-track">
+        <span>WEB DEVELOPMENT ✦ UI/UX DESIGN ✦ DATA ANALYTICS ✦ AI EXPLORATION ✦ CREATIVE CODING ✦</span>
+        <span aria-hidden="true">WEB DEVELOPMENT ✦ UI/UX DESIGN ✦ DATA ANALYTICS ✦ AI EXPLORATION ✦ CREATIVE CODING ✦</span>
+      </div>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="section-index reveal">01 / ABOUT</div>
+      <div class="about-grid">
+        <h2 class="section-title reveal">BUILD.<br><span class="outline">LEARN.</span><br>EVOLVE.</h2>
+        <div class="about-copy reveal">
+          <p class="big-copy">Saya suka memadukan logika dan visual: membangun antarmuka, mencoba teknologi baru, lalu mengubah proses belajar menjadi karya yang bisa dilihat.</p>
+          <div class="facts">
+            <div><span>FOCUS</span><strong>Web / UI/UX / Data</strong></div>
+            <div><span>STATUS</span><strong>Student</strong></div>
+            <div><span>STYLE</span><strong>Experimental / Editorial</strong></div>
+            <div><span>YEAR</span><strong>2026</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+      <div class="section-pad cert-heading">
+        <div class="section-index reveal">02 / CERTIFICATES</div>
+        <div class="cert-title-row">
+          <h2 class="section-title reveal">SELECTED<br><span class="outline">CREDENTIALS.</span></h2>
+          <p class="reveal">Enam sertifikat pilihan dari bidang data, UI/UX, AI, dan public speaking. Klik kartu untuk melihat versi besar.</p>
+        </div>
+      </div>
+
+      <div class="certificate-list">
+        <article class="cert-row reveal" data-image="assets/cert-data-analytics.jpg" data-title="Intro to Data Analytics" data-meta="RevoU · 2026">
+          <span class="cert-no">01</span>
+          <div class="cert-text"><h3>INTRO TO DATA ANALYTICS</h3><p>RevoU · Mini Course</p></div>
+          <span class="cert-year">2026</span>
+          <div class="cert-thumb"><img src="assets/cert-data-analytics.jpg" alt="Sertifikat Intro to Data Analytics" /></div>
+          <button class="cert-open" type="button" aria-label="Buka sertifikat Intro to Data Analytics">↗</button>
+        </article>
+
+        <article class="cert-row reveal" data-image="assets/cert-uiux-event.jpg" data-title="External UI/UX Design Event 9.0" data-meta="Telkom University Purwokerto · 2025">
+          <span class="cert-no">02</span>
+          <div class="cert-text"><h3>EXTERNAL UI/UX DESIGN EVENT 9.0</h3><p>Participant · Telkom University Purwokerto</p></div>
+          <span class="cert-year">2025</span>
+          <div class="cert-thumb"><img src="assets/cert-uiux-event.jpg" alt="Sertifikat UI/UX Design Event" /></div>
+          <button class="cert-open" type="button" aria-label="Buka sertifikat UI/UX Design Event">↗</button>
+        </article>
+
+        <article class="cert-row reveal" data-image="assets/cert-google-ai.png" data-title="AI Google untuk Pendidik Sekolah Dasar dan Menengah" data-meta="Google · 2026">
+          <span class="cert-no">03</span>
+          <div class="cert-text"><h3>AI GOOGLE FOR EDUCATION</h3><p>Google learning credential</p></div>
+          <span class="cert-year">2026</span>
+          <div class="cert-thumb"><img src="assets/cert-google-ai.png" alt="Kredensial AI Google" /></div>
+          <button class="cert-open" type="button" aria-label="Buka kredensial AI Google">↗</button>
+        </article>
+
+        <article class="cert-row reveal" data-image="assets/cert-ai-ignition.jpg" data-title="AI Ignition Training" data-meta="KUMPUL · AI Ignition Indonesia · 2026">
+          <span class="cert-no">04</span>
+          <div class="cert-text"><h3>AI IGNITION TRAINING</h3><p>KUMPUL · AI Opportunity Fund</p></div>
+          <span class="cert-year">2026</span>
+          <div class="cert-thumb"><img src="assets/cert-ai-ignition.jpg" alt="Sertifikat AI Ignition Training" /></div>
+          <button class="cert-open" type="button" aria-label="Buka sertifikat AI Ignition Training">↗</button>
+        </article>
+
+        <article class="cert-row reveal" data-image="assets/cert-dibimbing-uiux.jpg" data-title="DSF 48.0 — UI/UX" data-meta="Dibimbing.id · 2026">
+          <span class="cert-no">05</span>
+          <div class="cert-text"><h3>DSF 48.0 — UI/UX</h3><p>Dibimbing.id · Participant</p></div>
+          <span class="cert-year">2026</span>
+          <div class="cert-thumb"><img src="assets/cert-dibimbing-uiux.jpg" alt="Sertifikat UI/UX Dibimbing" /></div>
+          <button class="cert-open" type="button" aria-label="Buka sertifikat UI/UX Dibimbing">↗</button>
+        </article>
+
+        <article class="cert-row reveal" data-image="assets/cert-public-speaking.jpg" data-title="Workshop Public Speaking" data-meta="Telkom University Purwokerto · 2025">
+          <span class="cert-no">06</span>
+          <div class="cert-text"><h3>WORKSHOP PUBLIC SPEAKING</h3><p>International Speech Camp · Participant</p></div>
+          <span class="cert-year">2025</span>
+          <div class="cert-thumb"><img src="assets/cert-public-speaking.jpg" alt="Sertifikat Workshop Public Speaking" /></div>
+          <button class="cert-open" type="button" aria-label="Buka sertifikat public speaking">↗</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="section-index reveal">03 / CONTACT</div>
+      <div class="contact-grid">
+        <h2 class="contact-title reveal">LET'S MAKE<br>SOMETHING<br><span class="outline">COOL.</span></h2>
+        <div class="contact-side reveal">
+          <p>Portfolio ini dibuat sebagai presentasi diri dan dokumentasi proses belajar.</p>
+          <div class="contact-actions">
+            <a class="pill magnetic" href="https://wa.me/6285747276348" target="_blank" rel="noopener noreferrer">SAY HELLO ↗</a>
+            <a class="pill magnetic" href="mailto:rajasudibya@gmail.com">EMAIL ME ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 MUHAMMAD RAJA YUSUF SUDIBDYA</span>
+    <a href="#top">BACK TO TOP ↑</a>
+  </footer>
+
+  <div class="modal" id="certModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel">
+      <div class="modal-head">
+        <div>
+          <span class="modal-kicker" id="modalMeta"></span>
+          <h2 id="modalTitle"></h2>
+        </div>
+        <button class="modal-close magnetic" type="button" data-close-modal>CLOSE ×</button>
+      </div>
+      <div class="modal-image-wrap">
+        <img id="modalImage" src="" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
